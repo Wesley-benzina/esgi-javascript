@@ -121,3 +121,4 @@ function vig(string, code) {
         .join("");
 }
 
+console.log(vig('wikipedia', 'crypto'));

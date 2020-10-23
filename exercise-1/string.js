@@ -5,7 +5,7 @@ function prop_access(object, path) {
     let result = object;
     for (const element of path.split(".")){
         if(!(element in result)){
-            return path + "not exist"
+            return path + " not exist"
 
         }
         result = result[element]

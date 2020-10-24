@@ -1,4 +1,3 @@
-
 function prop_access(object, path) {
     if (typeof object!== "object") return "";
         if (typeof path !== "string"  || path === null) return object;
